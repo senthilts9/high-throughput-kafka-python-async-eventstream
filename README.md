@@ -5,7 +5,6 @@
 This project simulates a **real-time trade streaming platform** using **Kafka** and **Python's async features (`aiokafka`)**. It demonstrates how to build a **modular**, **observable**, and **fault-tolerant** system for delivering trade events to risk engines or back-office processors.
 
 ---
-
 ## 📁 Folder Structure
 
 ```
@@ -137,30 +136,6 @@ docker run --rm -e KAFKA_BOOTSTRAP_SERVERS=host.docker.internal:9092 -e KAFKA_TO
 
 ---
 
-## 📸 LinkedIn Post Hashtags
-
-When posting your project on LinkedIn, use these:
-
-```
-#Kafka #Python #EventDrivenArchitecture #FinTech #AsyncProgramming
-#SoftwareEngineering #Microservices #QuantEngineering #BackOffice
-#RealTimeData #aiokafka #Docker #TradeLifecycle #PnL #RiskTech
-```
-
----
-
-## 💡 Sample LinkedIn Caption (edit as needed)
-
-> Just built a Kafka + Python async trade streaming system from scratch!  
-> - Modular producer/consumer  
-> - Real-time validation and notional calc  
-> - Retry logic, DLQ fallback, and JSON logs  
-> - Ready to scale to 100K+ trades/sec 🚀  
-> Perfect for risk teams, back office, or PnL systems.
-
-👉 Check out the repo & demo code on GitHub
-
----
 
 ## 🧠 Future Ideas
 
